@@ -10,6 +10,25 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+
+		<style>
+			/* {
+				box-sizing: border-box;
+			} */
+			/* Set additional styling options for the columns*/
+			.column {
+			float: left;
+			width: 50%;
+			}
+		
+			.row:after {
+			content: "";
+			display: table;
+			clear: both;
+			}
+			</style>
+
+
 	</head>
 	<body class="is-preload">
 
@@ -22,15 +41,15 @@
 						<div id="logo">
 							<span class="image avatar48"><img src="images/2s.png" alt="" /></span>
 							<h1 id="title">Peninsula Short Stays</h1>
-							<!-- <p>Hyperspace Engineer</p> -->
+							<p>Mornington, Australia</p>
 						</div>
 
 					<!-- Nav -->
 						<nav id="nav">
 							<ul>
 								<li><a href="#top" id="top-link"><span class="icon solid fa-home">Welcome</span></a></li>
-								<li><a href="#portfolio" id="portfolio-link"><span class="icon solid fa-scroll">Attractions</span></a></li>
-								<li><a href="#about" id="about-link"><span class="icon solid fa-binoculars">House Guide</span></a></li>
+								<li><a href="#portfolio" id="portfolio-link"><span class="icon solid fa-binoculars">Attractions</span></a></li>
+								<li><a href="#about" id="about-link"><span class="icon solid fa-scroll">House Guide</span></a></li>
 								<li><a href="#guestbook" id="contact-link"><span class="icon solid fa-signature">Guestbook</span></a></li>
 							</ul>
 						</nav>
@@ -69,14 +88,22 @@
 							</header>
 
 							<body>
-								<div>
-									<script src="https://apps.elfsight.com/p/platform.js" defer></script>
-									<div class="elfsight-app-fba77eae-1b19-4026-b8db-03b335951a2a"></div>
+
+								<div class="row">
+									<div class="column" >
+										<div>
+											<script src="https://apps.elfsight.com/p/platform.js" defer></script>
+											<div class="elfsight-app-fba77eae-1b19-4026-b8db-03b335951a2a"></div>
+										</div>
+									</div>
+									<div class="column">
+										<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fpeninsulashortstays&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+									</div>
 								</div>
 
-								<div id="fb-root"></div>
-								<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v9.0" nonce="PgHpwgbS"></script>
-								<div class="fb-page" data-href="https://www.facebook.com/peninsulashortstays" data-tabs="timeline" data-width="" data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/peninsulashortstays" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/peninsulashortstays">Peninsula Short Stays</a></blockquote></div>
+								
+
+								
 
 							</body>
 
@@ -173,7 +200,7 @@
 							<body>
 								<div>
 									<!-- Bravenet Embedded Service Code -->
-									<script src="https://apps.bravenet.com/go.js?service=guestbook;id=1;usernum=990869361" type="text/javascript" charset="utf-8"></script>
+									<script src="http://apps.bravenet.com/go.js?service=guestbook;id=1;usernum=990869361" type="text/javascript" charset="utf-8"></script>
 								</div>
 							</body>
 						</div>
